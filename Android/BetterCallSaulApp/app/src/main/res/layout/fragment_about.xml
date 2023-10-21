@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.about.AboutFragment">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presentation of the 'Better Call Saul' Law Firm"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/historySubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company History:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The 'Better Call Saul' law firm was founded by the renowned lawyer Saul Goodman, whose story is fascinating and inspiring. Before becoming the iconic figure everyone knows from the television series, Saul was Jimmy McGill, a talented, fearless lawyer passionate about justice. His journey to becoming Saul Goodman was a story of reinvention, learning, and professional growth."
+        app:layout_constraintTop_toBottomOf="@id/historySubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/servicesSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Services Provided:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/historyText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/servicesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The 'Better Call Saul' law firm offers a wide range of legal services to meet the needs of its clients, including:\n\n1. Criminal Law\n2. Civil Law\n3. Business Law\n4. Family Law\n5. Real Estate Law\n6. Estate Planning\n7. Other Legal Services\n\nThe commitment of 'Better Call Saul' to justice, ethics, and the relentless advocacy for its clients is what makes this law firm truly exceptional. Inspired by the journey of Saul Goodman, 'Better Call Saul' is ready to take on any legal challenge and provide top-notch legal representation to all seeking justice. Contact us today and discover how we can help you find the path to true justice."
+        app:layout_constraintTop_toBottomOf="@id/servicesSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

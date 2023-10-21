@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gvfs.bettercallsaulapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.gvfs.bettercallsaulapp.ui.services.ServicesFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_customers"
+        android:name="com.gvfs.bettercallsaulapp.ui.customers.CustomersFragment"
+        android:label="@string/menu_customers"
+        tools:layout="@layout/fragment_customers" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.gvfs.bettercallsaulapp.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.gvfs.bettercallsaulapp.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
